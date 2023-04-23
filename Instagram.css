@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: linear-gradient(to right bottom,  rgb(79, 91, 213), rgb(150, 47, 191),  rgb(214, 41, 118), rgb(250, 126, 30),rgb(254, 218, 117));
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Card{
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wiz{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.Top{
+    display: flex;
+    justify-content: space-between;
+}
+.Avatar{
+    width: 40%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Profile{
+    width: 70%;
+    height: auto;
+    margin-left: 10px;
+    /* background-color: yellow; */
+}
+.Cardwrapper{
+    height: 95%;
+    width: 90%;
+    /* background-color: aquamarine; */
+}
+.H1{
+    line-height: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Home{
+    width: 100%;
+    height: 350px;
+}
+.Iconwrapper{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: darkorange; */
+}
+.right{
+    width: 30%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+.Icon1{
+        width: 30px;
+        height: 30px; 
+}
+.Icon2{
+        width: 30px;
+        height: 30px;   
+}
+.Icon3{
+        width: 30px;
+        height: 30px; 
+}
+.mid{
+    width: 10%;
+    height: 30px;
+    font-size: 30px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+.circle{
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background-color: gainsboro;
+ }
+.left{
+    width: 10%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* background-color: red; */
+}
+.Icon4{
+        width: 40px;
+        height: 30px;
+}
+.Views{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.L1{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.L2{
+    font-size: 13px;
+    margin-top: 5px;
+}
+.L3{
+    font-size: 13px;
+    margin-top: 5px;
+}
